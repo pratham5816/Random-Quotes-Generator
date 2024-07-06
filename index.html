@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Welcome</title>
+
+    <p style="font-size: 50px; font-style: italic; color: rgba(0, 0, 0, 0.741);">Random Quotes Generator</p>
+    <p id="uiText" style="font-size: 50px; font-style: italic; color: rgba(67, 103, 204, 0.741);"></p>
+    <style>
+        body {
+            text-align: center;
+            font-family: italic, sans-serif;
+            background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjgwMC1teW50LTI0LmpwZw.jpg");
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: 100;
+            background-color: black;
+
+        }
+
+        .navbar-text {
+            font-style: italic;
+            font-size: large;
+            color: whitesmoke;
+        }
+
+
+        #quotestext {
+            position: relative;
+        }
+
+        #quotestext:hover::after {
+            content: "Click on 'Quotes' above on top to start!";
+            display: block;
+            position: absolute;
+            top: 100%;
+            /* Position it below the <p> tag */
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background */
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #jokestext {
+            position: relative;
+        }
+
+        #jokestext:hover::after {
+            content: "Click on 'Jokes' above on top to start!";
+            display: block;
+            position: absolute;
+            top: 100%;
+            /* Position it below the <p> tag */
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background */
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .navbar-text {
+            position: relative;
+        }
+
+        .navbar-text:hover::after {
+            content: "Pratham kumar Taheem , currently studying in GGCT (CSE - 6th Sem)";
+            display: block;
+            position: absolute;
+            top: 100%;
+            /* Position it below the <p> tag */
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background */
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+
+        #myQuote {
+            --b: .5em;
+            /* border width */
+            --c: 3em;
+            /* corner size */
+            --r: 2em;
+            /* corner rounding */
+            position: relative;
+            margin: 1em auto;
+            border: solid var(--b) transparent;
+            padding: 1em;
+            max-width: 23em;
+            font: 1.25em ubuntu, sans-serif;
+            color: black;
+
+            &::before {
+                position: absolute;
+                z-index: -1;
+                inset: calc(-1*var(--b));
+                border: inherit;
+                border-radius: var(--r);
+                background: linear-gradient(orange, deeppink, purple) border-box;
+                --corner:
+                    conic-gradient(from -90deg at var(--c) var(--c), red 25%, #0000 0) 0 0/ calc(100% - var(--c)) calc(100% - var(--c)) border-box;
+                --inner: conic-gradient(red 0 0) padding-box;
+                -webkit-mask: var(--corner), var(--inner);
+                -webkit-mask-composite: source-out;
+                mask: var(--corner) subtract, var(--inner);
+                content: ''
+            }
+        }
+
+
+        #randJokes {
+            --b: .5em;
+            /* border width */
+            --c: 3em;
+            /* corner size */
+            --r: 2em;
+            /* corner rounding */
+            position: relative;
+            margin: 1em auto;
+            border: solid var(--b) transparent;
+            padding: 1em;
+            max-width: 23em;
+            font: 1.25em ubuntu, sans-serif;
+            color: black;
+
+            &::before {
+                position: absolute;
+                z-index: -1;
+                inset: calc(-1*var(--b));
+                border: inherit;
+                border-radius: var(--r);
+                background: linear-gradient(orange, deeppink, purple) border-box;
+                --corner:
+                    conic-gradient(from -90deg at var(--c) var(--c), red 25%, #0000 0) 0 0/ calc(100% - var(--c)) calc(100% - var(--c)) border-box;
+                --inner: conic-gradient(red 0 0) padding-box;
+                -webkit-mask: var(--corner), var(--inner);
+                -webkit-mask-composite: source-out;
+                mask: var(--corner) subtract, var(--inner);
+                content: ''
+            }
+        }
+
+        .styled-link-IG,
+        .styled-link-YT {
+            color: blue;
+            /* Sets the text color to blue */
+            text-decoration: none;
+            font-size: x-large;
+            /* Removes the underline */
+        }
+
+        .styled-link-IG:hover,
+        .styled-link-YT:hover {
+            color: red;
+            /* Changes the text color to red on hover */
+        }
+    </style>
+    <script>
+       
+
+        function refreshPage() {
+            window.location.reload();
+        }
+        function timer_quotes() {
+            timer = setInterval(getQuote, 4000);
+        }
+        function getQuote() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "http://127.0.0.1:5000/api", true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    var data = JSON.parse(xhr.responseText).content;
+                    // var author = JSON.parse(xhr.responseText).author;
+                    // document.getElementById("myAuthor").innerHTML = author;
+                    document.getElementById("myQuote").innerHTML = data;
+                } else {
+                    console.error('Request failed.  Returned status of ' + xhr.status);
+                }
+            };
+            xhr.send();
+        }
+
+
+        function timer_jokes() {
+            var timer = setInterval(getJoke, 4000);
+        }
+
+        function getJoke() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "http://127.0.0.1:5000/jokesApi", true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    var jokes = JSON.parse(xhr.responseText).joke;
+                    document.getElementById("randJokes").innerHTML = jokes;
+
+                } else {
+                    console.error('Request failed.  Returned status of ' + xhr.status);
+                }
+            };
+            xhr.send();
+        }
+
+       
+
+
+</script>
+    
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Random Quotes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="aTAGrefresh" aria-current="page" href="#"
+                            onclick="refreshPage()">Refresh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="aTAGjoekes" href="#" onclick="timer_jokes()">Jokes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="aTAGquotes" onclick="timer_quotes()">Quotes</a>
+                    </li>
+                </ul>
+                <span class="navbar-text" style="color: black;">
+                    Created by - Pratham (0208CS211130)
+
+                </span>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="container">
+        <p id="myQuote" style="margin-top: 100px;"></p>
+        
+        <p id="quotestext" style="color: blue; font-size: larger;">Quotes will be displayed here!</p>
+
+        <p id="randJokes" style="margin-top: 100px;"></p>
+        <p id="jokestext" style="color: blue; font-size: larger; ">Jokes will be displayed here!</p>
+        <button onclick="refreshPage()" style="margin: 100px;" type="button" class="btn btn-danger">Stop</button>
+        <div style="margin-top: 50px;"><a href="https://www.youtube.com" class="styled-link-YT">Youtube</a>
+            <a href="https://www.instagram.com" class="styled-link-IG">Instagram</a>
+        </div>
+
+    </div>
+
+    <div>
+        <button onclick="get_qoute_ninja()" id="ninjaBtn">NINJA</button>
+        <p id="ninjalabel"></p>
+    </div>
+    
+
+    
+
+</body>
+
+
+
+
+</html>
+  <!-- <p style="font-size: larger; color: whitesmoke;">Author--</p> -->
+        <!-- <p id="myAuthor"></p> -->
+ <!-- <h1 id="myQuote"></h1> -->
+    <!-- <p style="font-size:larger;font-style: italic;">Author-</p> -->
+    <!-- <button type="button">STOP</button> -->
+<!-- <div class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" style="font-size: xx-large;">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" style="font-size: xx-large;">Review</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div> -->
+
+
+    <!-- <button class="button-63"  role="button" onclick="refreshPage()">Click to stop</button> -->
+
+    <!-- <h2 id="myAuthor" style="font: size 22px;"></h2> -->
+    <!-- div class="container" id="randJokes"></div>< -->
+
+    <!-- <div class="card" style="width: 18rem;">
+        <img class="card-img-top"
+            src="https://media.istockphoto.com/id/840841258/photo/blank-white-3d-visiting-card-and-business-card-template-3d-render-illustration-for-mock-up-and.webp?s=2048x2048&w=is&k=20&c=XQk4s_YySXCdK6Ti3rqtnYhqOVh0Npjc8PeS2e7SJ0Y="
+            alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div> -->

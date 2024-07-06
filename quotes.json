@@ -1,0 +1,609 @@
+[
+    {
+        "_id": "oG014O92mM",
+        "content": "Life is a learning experience, only if you learn.",
+        "author": "Yogi Berra",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "yogi-berra",
+        "length": 49,
+        "dateAdded": "2020-01-12",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "b6IAh5Z4Seu",
+        "content": "The sum of wisdom is that time is never lost that is devoted to work.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "ralph-waldo-emerson",
+        "length": 69,
+        "dateAdded": "2020-02-27",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "VFuYWRR2yM",
+        "author": "Winston Churchill",
+        "content": "I am an optimist. It does not seem too much use being anything else.",
+        "tags": [],
+        "authorSlug": "winston-churchill",
+        "length": 68,
+        "dateAdded": "2022-03-12",
+        "dateModified": "2022-03-12"
+    },
+    {
+        "_id": "l70UOlvj111q",
+        "content": "By living deeply in the present moment we can understand the past better and we can prepare for a better future.",
+        "author": "Thích Nhất Hạnh",
+        "tags": [
+            "Life",
+            "Future"
+        ],
+        "authorSlug": "thich-nhat-hanh",
+        "length": 112,
+        "dateAdded": "2020-01-12",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "xRm-IIMzrRPm",
+        "content": "Just as much as we see in others, we have in ourselves.",
+        "author": "William Hazlitt",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "william-hazlitt",
+        "length": 55,
+        "dateAdded": "2019-09-08",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "dkOBkLx1o6Vf",
+        "content": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+        "author": "Dr. Seuss",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "dr-seuss",
+        "length": 102,
+        "dateAdded": "2020-01-27",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "-ZGXOoJquO1",
+        "content": "By believing passionately in something that does not yet exist, we create it.",
+        "author": "Nikos Kazantzakis",
+        "tags": [
+            "Success"
+        ],
+        "authorSlug": "nikos-kazantzakis",
+        "length": 77,
+        "dateAdded": "2019-02-11",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "r9S4j8umf2YQ",
+        "content": "Never deny a diagnosis but do deny the negative verdict that may go with it.",
+        "author": "Norman Cousins",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "norman-cousins",
+        "length": 76,
+        "dateAdded": "2020-02-07",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "Ps20py3bE1JW",
+        "content": "Excellence is to do a common thing in an uncommon way.",
+        "author": "Booker T. Washington",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "booker-t-washington",
+        "length": 54,
+        "dateAdded": "2019-11-16",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "-7Iml38SvH",
+        "content": "If you are bitter, you are like a dry leaf that you can just squash, and you can get blown away by the wind. There is much more wisdom in forgiveness.",
+        "author": "Vusi Mahlasela",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "vusi-mahlasela",
+        "length": 150,
+        "dateAdded": "2020-12-08",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "lDffUvkJEnv0",
+        "content": "What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.",
+        "author": "Wayne Dyer",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "wayne-dyer",
+        "length": 109,
+        "dateAdded": "2019-03-15",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "DmBSFmjwZukB",
+        "content": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe.",
+        "author": "Abraham Lincoln",
+        "tags": [
+            "Famous Quotes",
+            "Wisdom"
+        ],
+        "authorSlug": "abraham-lincoln",
+        "length": 89,
+        "dateAdded": "2019-08-08",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "PlqVkGcCIp",
+        "author": "Aesop",
+        "content": "Beware lest you lose the substance by grasping at the shadow.",
+        "tags": [
+            "Wisdom",
+            "Philosophy"
+        ],
+        "authorSlug": "aesop",
+        "length": 61,
+        "dateAdded": "2023-04-03",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "gj27kRm_ptYL",
+        "content": "The greatest part of our happiness depends on our dispositions, not our circumstances.",
+        "author": "Martha Washington",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "martha-washington",
+        "length": 86,
+        "dateAdded": "2021-02-27",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "kpHBKU4UZAsL",
+        "content": "Those who are blessed with the most talent don't necessarily outperform everyone else. It's the people with follow-through who excel.",
+        "author": "Mary Kay Ash",
+        "tags": [
+            "Success"
+        ],
+        "authorSlug": "mary-kay-ash",
+        "length": 133,
+        "dateAdded": "2019-02-11",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "vbTwRyX9uu",
+        "content": "Genius unrefined resembles a flash of lightning, but wisdom is like the sun.",
+        "author": "Franz Grillparzer",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "franz-grillparzer",
+        "length": 76,
+        "dateAdded": "2019-02-11",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "lvcJukDLhxz3",
+        "content": "The difference between what we do and what we are capable of doing would suffice to solve most of the world's problems.",
+        "author": "Mahatma Gandhi",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "mahatma-gandhi",
+        "length": 119,
+        "dateAdded": "2019-12-02",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "J1amO36TwbX8",
+        "content": "You can't blame gravity for falling in love.",
+        "author": "Albert Einstein",
+        "tags": [
+            "Famous Quotes",
+            "Humorous"
+        ],
+        "authorSlug": "albert-einstein",
+        "length": 44,
+        "dateAdded": "2021-05-12",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "wnQptqWbvNW",
+        "content": "Don't ruin the present with the ruined past.",
+        "author": "Ellen Gilchrist",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "ellen-gilchrist",
+        "length": 44,
+        "dateAdded": "2019-11-26",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "VoAXkCivThO",
+        "content": "To enjoy life, we must touch much of it lightly.",
+        "author": "Voltaire",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "voltaire",
+        "length": 48,
+        "dateAdded": "2020-11-10",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "lTm3ZNHDrh7",
+        "author": "Bob Knight",
+        "content": "You don't play against opponents, you play against the game of basketball.",
+        "tags": [
+            "Sports",
+            "Competition"
+        ],
+        "authorSlug": "bob-knight",
+        "length": 74,
+        "dateAdded": "2022-07-06",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "GPwpUR7iz-",
+        "content": "If you were to offer a thirsty man all wisdom, you would not please him more than if you gave him a drink.",
+        "author": "Sophocles",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "sophocles",
+        "length": 106,
+        "dateAdded": "2019-02-13",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "l0LfTgApB3",
+        "author": "Babe Ruth",
+        "content": "The way a team plays as a whole determines its success. You may have the greatest bunch of individual stars in the world, but if they don't play together, the club won't be worth a dime.",
+        "tags": [
+            "Sports",
+            "Competition"
+        ],
+        "authorSlug": "babe-ruth",
+        "length": 186,
+        "dateAdded": "2022-07-06",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "l6GY3Z0heYA-",
+        "content": "Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world.",
+        "author": "Lucille Ball",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "lucille-ball",
+        "length": 125,
+        "dateAdded": "2019-07-23",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "mZAy5rJ2tW",
+        "content": "The greater our knowledge increases the more our ignorance unfolds.",
+        "author": "John F. Kennedy",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "john-f-kennedy",
+        "length": 67,
+        "dateAdded": "2021-05-07",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "8UWYR-PPomcx",
+        "content": "The person who makes a success of living is the one who see his goal steadily and aims for it unswervingly. That is dedication.",
+        "author": "Cecil B. DeMille",
+        "tags": [
+            "Success"
+        ],
+        "authorSlug": "cecil-b-de-mille",
+        "length": 127,
+        "dateAdded": "2020-01-31",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "y7YpPYyHzK6",
+        "content": "Absence makes the heart grow fonder.",
+        "author": "Thomas Haynes Bayly",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "thomas-haynes-bayly",
+        "length": 36,
+        "dateAdded": "2020-12-17",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "pt90_r-76Lj5",
+        "content": "All children are artists. The problem is how to remain an artist once he grows up.",
+        "author": "Pablo Picasso",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "pablo-picasso",
+        "length": 82,
+        "dateAdded": "2020-02-27",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "wftK-3DERCdh",
+        "content": "Correction does much, but encouragement does more.",
+        "author": "Johann Wolfgang von Goethe",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "johann-wolfgang-von-goethe",
+        "length": 50,
+        "dateAdded": "2019-02-13",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "Me8_vxzeboS",
+        "content": "There never was a good knife made of bad steel.",
+        "author": "Benjamin Franklin",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "benjamin-franklin",
+        "length": 47,
+        "dateAdded": "2020-10-14",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "fdSsJN4RCf",
+        "content": "It is impossible to love and to be wise.",
+        "author": "Francis Bacon",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "francis-bacon",
+        "length": 40,
+        "dateAdded": "2020-01-27",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "1q5znXik9aXV",
+        "content": "You're not obligated to win. You're obligated to keep trying to do the best you can every day.",
+        "author": "Marian Wright Edelman",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "marian-wright-edelman",
+        "length": 94,
+        "dateAdded": "2019-08-03",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "N67L3cotzJn6",
+        "content": "The first duty of a human being is to assume the right functional relationship to society - more briefly, to find your real job, and do it.",
+        "author": "Charlotte Perkins Gilman",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "charlotte-perkins-gilman",
+        "length": 139,
+        "dateAdded": "2020-01-31",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "tLoJe82KV",
+        "author": "Winston Churchill",
+        "content": "Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.",
+        "tags": [],
+        "authorSlug": "winston-churchill",
+        "length": 111,
+        "dateAdded": "2022-03-12",
+        "dateModified": "2022-03-12"
+    },
+    {
+        "_id": "UN97SbNn3N",
+        "author": "Ambrose Bierce",
+        "content": "The gambling known as business looks with austere disfavor upon the business known as gambling.",
+        "tags": [
+            "Business"
+        ],
+        "authorSlug": "ambrose-bierce",
+        "length": 95,
+        "dateAdded": "2022-07-06",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "W9NwK4fYcp",
+        "content": "There are three classes of men; lovers of wisdom, lovers of honor, and lovers of gain.",
+        "author": "Plato",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "plato",
+        "length": 86,
+        "dateAdded": "2019-08-03",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "HhQM5yo-IxF",
+        "author": "The Buddha",
+        "content": "Just as a solid rock is not shaken by the storm, even so the wise are not affected by praise or blame.",
+        "tags": [
+            "Wisdom",
+            "Character"
+        ],
+        "authorSlug": "the-buddha",
+        "length": 102,
+        "dateAdded": "2023-03-30",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "4eJZzWraMFLH",
+        "content": "Things do not change; we change.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "Change",
+            "Wisdom"
+        ],
+        "authorSlug": "henry-david-thoreau",
+        "length": 32,
+        "dateAdded": "2019-03-17",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "ZKH8C08aF-",
+        "content": "Silence at the proper season is wisdom, and better than any speech.",
+        "author": "Plutarch",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "plutarch",
+        "length": 67,
+        "dateAdded": "2020-01-31",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "mfGS-lWf2bFD",
+        "content": "When you reach the end of your rope, tie a knot in it and hang on.",
+        "author": "Franklin D. Roosevelt",
+        "tags": [
+            "Famous Quotes",
+            "Inspirational"
+        ],
+        "authorSlug": "franklin-d-roosevelt",
+        "length": 66,
+        "dateAdded": "2019-03-24",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "ZKfOV0UwuugV",
+        "content": "And as we let our own light shine, we unconsciously give other people permission to do the same.",
+        "author": "Nelson Mandela",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "nelson-mandela",
+        "length": 96,
+        "dateAdded": "2020-12-08",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "VgsphQQC9g",
+        "content": "It's supposed to be automatic, but actually you have to push this button.",
+        "author": "John Brunner",
+        "tags": [
+            "Technology"
+        ],
+        "authorSlug": "john-brunner",
+        "length": 73,
+        "dateAdded": "2019-10-12",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "5xTYuMv_nmWO",
+        "content": "Moral excellence comes about as a result of habit. We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.",
+        "author": "Aristotle",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "aristotle",
+        "length": 147,
+        "dateAdded": "2019-10-03",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "0lnHVeiNr0un",
+        "content": "They must often change, who would be constant in happiness or wisdom.",
+        "author": "Confucius",
+        "tags": [
+            "Famous Quotes",
+            "Wisdom"
+        ],
+        "authorSlug": "confucius",
+        "length": 69,
+        "dateAdded": "2019-02-13",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "QtuKHLeFEBK5",
+        "content": "We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly.",
+        "author": "Sam Keen",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "sam-keen",
+        "length": 102,
+        "dateAdded": "2019-12-02",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "HNZ1AQgHZk8I",
+        "content": "The deepest craving of human nature is the need to be appreciated.",
+        "author": "William James",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "william-james",
+        "length": 66,
+        "dateAdded": "2019-09-23",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "gphANJ7YEjnz",
+        "content": "No day in which you learn something is a complete loss.",
+        "author": "David Eddings",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "david-eddings",
+        "length": 55,
+        "dateAdded": "2019-09-08",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "yFqk57G890gk",
+        "content": "It is not fair to ask of others what you are unwilling to do yourself.",
+        "author": "Eleanor Roosevelt",
+        "tags": [
+            "Famous Quotes"
+        ],
+        "authorSlug": "eleanor-roosevelt",
+        "length": 70,
+        "dateAdded": "2020-05-21",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "nu4Hc01ELHJQ",
+        "content": "One may say the eternal mystery of the world is its comprehensibility.",
+        "author": "Albert Einstein",
+        "tags": [
+            "Famous Quotes",
+            "Science"
+        ],
+        "authorSlug": "albert-einstein",
+        "length": 70,
+        "dateAdded": "2021-04-15",
+        "dateModified": "2023-04-14"
+    },
+    {
+        "_id": "ckDszJK-0T",
+        "content": "Ignorance and bungling with love are better than wisdom and skill without.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "Wisdom"
+        ],
+        "authorSlug": "henry-david-thoreau",
+        "length": 74,
+        "dateAdded": "2021-04-08",
+        "dateModified": "2023-04-14"
+    }
+]
